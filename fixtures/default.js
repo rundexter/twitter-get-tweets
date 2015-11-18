@@ -63,7 +63,13 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                count: 5,
+                since_id: 12345,
+                max_id: 54321,
+                trim_user: true,
+                exclude_replies: true,
+                contributor_details: true,
+                include_entities: false
             }
         }
     }

@@ -4,23 +4,41 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "count",
+            "title":"count"
+        },
+        {
+          "id": "since_id",
+          "title":"since_id"
+        },
+        {
+          "id": "max_id",
+          "title":"max_id"
+        },
+        {
+          "id": "trim_user",
+          "title":"trim_user"
+        },
+        {
+          "id": "exclude_replies",
+          "title":"exclude_replies"
+        },
+        {
+          "id": "contributor_details",
+          "title":"contributor_details"
+        },
+        {
+          "id": "include_entities",
+          "title":"include_entities"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "tweets",
+            "title":"tweets"
         }
-      */
     ],
     "title": "Twitter Get Tweets" /* Required.A display name for the module */
 }
