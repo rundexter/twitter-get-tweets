@@ -40,5 +40,6 @@
             "title":"tweets"
         }
     ],
+    "icon": "twitter",
     "title": "Twitter Get Tweets" /* Required.A display name for the module */
 }
